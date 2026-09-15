@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy, Water Eject &amp; Dust Remover</title>
+    <meta name="description" content="Privacy Policy for Water Eject &amp; Dust Remover: the microphone level check stays on the iPhone, anonymous usage signals via TelemetryDeck, purchases through Apple, no account, no ads, no tracking.">
+    <link rel="canonical" href="https://cmlapps.github.io/watereject/privacy.html">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px 60px 20px; color: #13201D; background: #F2F6F4; line-height: 1.6; }
+        h1 { font-size: 26px; color: #13201D; margin-bottom: 4px; }
+        h2 { font-size: 18px; margin-top: 32px; color: #1C5E50; }
+        a { color: #1C5E50; }
+        .date { color: #7E8F8A; font-size: 14px; }
+        .lead { color: #4E5E59; font-size: 15px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; }
+        .table-wrap { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14px; }
+        th, td { border: 1px solid #D5E0DB; padding: 8px 10px; text-align: left; vertical-align: top; }
+        th { background: #E3ECE8; color: #1C5E50; font-weight: 600; }
+        td { color: #4E5E59; }
+        .notice { border: 1px solid #1C5E50; background: #E3ECE8; padding: 14px 16px; border-radius: 8px; margin: 16px 0; }
+        .footer-note { color: #7E8F8A; font-size: 12px; margin-top: 48px; border-top: 1px solid #D5E0DB; padding-top: 16px; }
+        code { background: #E3ECE8; padding: 1px 5px; border-radius: 3px; color: #13201D; font-size: 13px; }
+        @media (prefers-color-scheme: dark) {
+            body { color: #E6EEEB; background: #0F1715; }
+            h1 { color: #E6EEEB; }
+            h2, a, th { color: #7FD1BD; }
+            .lead, td { color: #A9B8B3; }
+            .date, .footer-note { color: #82928D; }
+            .notice { border-color: #3C7F70; background: #16221F; }
+            th { background: #16221F; }
+            th, td, .footer-note { border-color: #26332F; }
+            code { background: #16221F; color: #E6EEEB; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated: 2026-09-15. Effective: 2026-09-15.</p>
+    <p class="lead">This is the Privacy Policy for Water Eject &amp; Dust Remover (the "App"), an iPhone application published by Cloud Motion Lab LLC ("we", "our", "us"). It explains what the App collects, why, who processes it, how long it is kept, and the rights you have. If a section is unclear, write to <a href="mailto:dev@slyapp.co">dev@slyapp.co</a>.</p>
+
+    <div class="notice">
+        <strong>The short version.</strong> The App has no account and asks for no name or email. The microphone, if you allow it, listens to a one-second chime before and after a run so the App can compare the speaker's level; the audio stays in the iPhone's memory, is never saved to a file, and is never sent anywhere. We receive anonymous usage signals through TelemetryDeck, including the level difference in decibels as a number. Purchases go through Apple. There are no ads, and nothing tracks you across other apps or websites.
+    </div>
+
+    <h2>Notice at Collection (California)</h2>
+    <p>We collect the following categories of personal information when you use the App: identifiers (a pseudonymous, hashed device identifier used by our analytics provider), commercial information (whether this device has made the App's one-time purchase, read from Apple), and internet or other electronic network activity (anonymous in-app usage signals). We use this information to deliver the App, unlock the purchase, and understand which parts of the App work. Retention is described in the Retention section below. <strong>We do not sell your personal information and we do not share it for cross-context behavioral advertising.</strong> Your California privacy rights and the route to exercise them appear in the State Privacy Rights section below.</p>
+
+    <h2>The Microphone</h2>
+    <p>The App asks for microphone access the first time you tap Start. You can refuse, and every run still plays.</p>
+    <ul>
+        <li><strong>When it listens.</strong> Only if you have allowed access, the volume is all the way up, and the sound is coming out of the iPhone's built-in speaker. Then, once just before a run and once just after it, the App plays a one-second reference chime through the speaker and listens for about 1.2 seconds while it plays.</li>
+        <li><strong>What it does with the sound.</strong> On the iPhone, each capture is reduced to three numbers: the chime's level at 500 Hz, 1,500 Hz and 3,000 Hz. The App compares the after levels with the before levels and shows one of three sentences on the run's receipt. The captured audio is held in memory only for that calculation. It is never written to a file, never kept after the calculation, and never transmitted.</li>
+        <li><strong>What leaves the device.</strong> One anonymous usage signal, <code>micProof</code>, carrying whether access was granted and two numbers: the average level difference in decibels and the difference at 3,000 Hz. No audio, no recording and no speech is ever part of it.</li>
+        <li>You can turn microphone access off at any time in iOS Settings. The level line then disappears from the receipt and nothing else changes.</li>
+    </ul>
+
+    <h2>Anonymous Usage Signals (TelemetryDeck)</h2>
+    <p>The App sends anonymous usage signals to TelemetryDeck so we can see which parts of the App are used and where people stop. A signal records that something happened, never anything you typed: the App has no text fields.</p>
+    <p><strong>The signals the App sends, and what they carry:</strong></p>
+    <div class="table-wrap">
+    <table>
+        <thead><tr><th>Signal</th><th>When</th><th>Values</th></tr></thead>
+        <tbody>
+            <tr><td><code>onboardingAnswered</code></td><td>The welcome pages finish</td><td>The reason you picked (splash, dropped, swim, muffled, dust, or not sure)</td></tr>
+            <tr><td><code>runStarted</code></td><td>A run's tone begins</td><td>Mode (water or dust) and what started it (first run, again, after purchase, after relaunch)</td></tr>
+            <tr><td><code>runStopped</code></td><td>You tap Stop</td><td>Seconds of tone played</td></tr>
+            <tr><td><code>runCompleted</code></td><td>A run finishes</td><td>Mode, pulses, seconds, frequency range</td></tr>
+            <tr><td><code>micProof</code></td><td>A run finishes</td><td>Microphone access granted or not, the level differences in decibels described above</td></tr>
+            <tr><td><code>handoffOpened</code></td><td>Apple's page for a wet iPhone opens</td><td>None</td></tr>
+            <tr><td><code>paywallShown</code></td><td>The purchase screens open</td><td>Which button opened them</td></tr>
+            <tr><td><code>paywallDismissed</code></td><td>The purchase screens are closed</td><td>None</td></tr>
+            <tr><td><code>purchaseStarted</code>, <code>purchaseCompleted</code>, <code>purchaseCancelled</code></td><td>The purchase flow</td><td>None</td></tr>
+            <tr><td><code>ratePageShown</code>, <code>rateNativeRequested</code></td><td>A rating request is shown or handed to Apple</td><td>Which moment led to it</td></tr>
+            <tr><td><code>volumeBelowMax</code></td><td>A run starts with the volume below the top</td><td>None</td></tr>
+            <tr><td><code>outputNotSpeaker</code></td><td>Start is refused because headphones or a speaker are connected</td><td>None</td></tr>
+        </tbody>
+    </table>
+    </div>
+    <p><strong>Attached to every signal by the App:</strong> the App's version and build number, the region setting of the device (for example US or BR, taken from iOS settings, not from location), and the number of whole days since the App was first opened.</p>
+    <p><strong>Added by TelemetryDeck's software:</strong> technical context such as the device model, iOS version, the App's language and locale, time zone, screen size and orientation, whether the App came from the App Store, and a session-start signal when the App is opened. TelemetryDeck identifies a device only by a SHA-256 hash of the App's vendor identifier, computed on the iPhone before any signal is sent; the vendor identifier itself is never transmitted, it is not an advertising identifier, and it differs between app developers. No signal carries your name, email, Apple Account, or location.</p>
+
+    <h2>Purchases</h2>
+    <p>The App offers one one-time in-app purchase, processed by Apple under Apple's Media Services Terms. We never see your card number, billing address, Apple Account, or email. The App reads Apple's signed record on the device to know whether the purchase was made, and whether this device has already used its included first run. Payment data is governed by the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</p>
+
+    <h2>Stored on Your Device</h2>
+    <ul>
+        <li><strong>In the iOS Keychain:</strong> whether the included first run has been used, whether a run has ever completed, and which rating requests have already been shown. Keychain entries can remain on the device after the App is deleted, which is why reinstalling does not grant a second included run.</li>
+        <li><strong>In the App's settings (UserDefaults):</strong> the last mode you chose, whether the welcome pages are finished, the reason you picked on them, and the date the App was first opened.</li>
+    </ul>
+    <p>None of this is sent to us except as the usage signals listed above.</p>
+
+    <h2>What the App Does Not Do</h2>
+    <ul>
+        <li>No account, no login, no email address, no name.</li>
+        <li>No advertising, no advertising SDKs, no advertising identifier (IDFA), and no App Tracking Transparency prompt, because nothing tracks you.</li>
+        <li>No tracking across other companies' apps or websites, and no data brokers.</li>
+        <li>No location, contacts, photos, camera, health data, or Bluetooth access.</li>
+        <li>No server operated by us. The tone is generated on the iPhone.</li>
+    </ul>
+
+    <h2>Links Out of the App</h2>
+    <p>After two runs in Water mode, the App can open Apple's support page for a wet iPhone inside an in-app Safari view. That page is Apple's, and <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a> governs it.</p>
+
+    <h2>Why We Process Each Category, with Lawful Basis (EU and UK)</h2>
+    <div class="table-wrap">
+    <table>
+        <thead><tr><th>Category</th><th>Purpose</th><th>Lawful basis (GDPR Art. 6)</th></tr></thead>
+        <tbody>
+            <tr><td>Anonymous usage signals</td><td>Operate and improve the App</td><td>Legitimate interest, Art. 6(1)(f)</td></tr>
+            <tr><td>Microphone level check (on the device)</td><td>Show the before-and-after level you asked for by granting access</td><td>Consent, Art. 6(1)(a), via the iOS permission prompt</td></tr>
+            <tr><td>Purchase state</td><td>Unlock the runs you bought</td><td>Performance of contract, Art. 6(1)(b)</td></tr>
+            <tr><td>Keychain and settings on the device</td><td>Remember your mode and whether the included run was used</td><td>Performance of contract, Art. 6(1)(b)</td></tr>
+        </tbody>
+    </table>
+    </div>
+
+    <h2>Subprocessors and International Transfers</h2>
+    <div class="table-wrap">
+    <table>
+        <thead><tr><th>Subprocessor</th><th>Purpose</th><th>Region</th><th>Transfer mechanism (EU and UK)</th></tr></thead>
+        <tbody>
+            <tr><td>TelemetryDeck</td><td>Anonymous usage signals</td><td>European Union (Germany)</td><td>Adequacy, no transfer needed for EU and UK; GDPR direct application</td></tr>
+            <tr><td>Apple App Store, StoreKit</td><td>App distribution and the one-time purchase</td><td>Global, governed by Apple</td><td>Apple's own Data Privacy Framework certification and SCCs, see Apple Privacy Policy</td></tr>
+        </tbody>
+    </table>
+    </div>
+
+    <h2>Retention</h2>
+    <ul>
+        <li><strong>Microphone audio</strong>: not retained. It exists in memory for about a second while the level is calculated.</li>
+        <li><strong>On-device settings and Keychain entries</strong>: kept until you delete the App; Keychain entries may remain after deletion as described above.</li>
+        <li><strong>Anonymous usage signals</strong>: aggregated and retained by TelemetryDeck for up to 24 months in a form not linked to you.</li>
+    </ul>
+
+    <h2>Sale, Sharing, and Global Privacy Control</h2>
+    <p>We do not sell personal information for money or other valuable consideration, and we do not share personal information for cross-context behavioral advertising, as those terms are defined under the California Consumer Privacy Act as amended. We honor the Global Privacy Control signal where it reaches us; because the App performs no sale or share, no opt-out is needed to stop one.</p>
+
+    <h2>State Privacy Rights, Summary</h2>
+    <p>If you live in a U.S. state with a comprehensive consumer privacy law, you have the rights below. The current list of states is California, Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, and Virginia.</p>
+    <ul>
+        <li><strong>Right to know</strong> what we have about you.</li>
+        <li><strong>Right to delete</strong> personal information we hold.</li>
+        <li><strong>Right to correct</strong> inaccurate information.</li>
+        <li><strong>Right to portability</strong>, that is, a copy in a portable format.</li>
+        <li><strong>Right to opt out</strong> of sale, sharing for cross-context behavioral advertising, and targeted advertising.</li>
+        <li><strong>Right to limit</strong> the use of sensitive personal information.</li>
+        <li><strong>Right to non-discrimination</strong> for exercising these rights.</li>
+        <li><strong>Right to appeal</strong> a denial.</li>
+    </ul>
+    <p>Because the only identifier we receive is a one-way hash, we usually cannot match a request to your signals. To exercise any right, email <a href="mailto:dev@slyapp.co">dev@slyapp.co</a> with the words "Privacy Request" in the subject line and tell us which app and what you want. We respond within 45 days, with one 45-day extension where reasonably needed. If we deny a request, you may appeal by replying to the same thread within 60 days, and we will respond to the appeal within 45 days. If you are not satisfied, California residents may contact the California Privacy Protection Agency, and other state residents may contact their state Attorney General. We treat all U.S. residents the same.</p>
+
+    <h2>Rights Under GDPR and UK GDPR</h2>
+    <p>If you are in the European Economic Area, the United Kingdom, or Switzerland, you have the rights of access, rectification, erasure, restriction of processing, portability, objection, and not to be subject to a decision based solely on automated processing that has legal or similarly significant effects. The App makes no such decisions. To exercise a right, email <a href="mailto:dev@slyapp.co">dev@slyapp.co</a>. You may also lodge a complaint with your local supervisory authority; UK users may complain to the Information Commissioner's Office. We will respond within one month of receipt and may extend by two further months for complex requests, with notice.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>The App is not directed to children under 13, and we do not knowingly collect personal information from a child under 13. If we learn that we have, we will delete it within 30 days. If you believe a child has provided us with personal information, contact <a href="mailto:dev@slyapp.co">dev@slyapp.co</a>.</p>
+
+    <h2>Security and Breach Notification</h2>
+    <p>We use commercially reasonable administrative, technical, and physical safeguards to protect personal information. No system is perfectly secure. If we determine that a personal-data breach affecting your information has occurred, we will notify you and applicable regulators in accordance with applicable law; for users in the EU and UK, within 72 hours after we become aware, in line with GDPR Article 33. Microphone audio never reaches any infrastructure, so a breach cannot expose it.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy. For material changes, including new categories of data, any transmission of microphone audio, or new subprocessors, we will give at least 30 days' advance notice through an in-app notice and will update the effective date at the top of this page. Minor changes such as typographical or formatting fixes may be made without separate notice. Continued use of the App on or after the effective date of an updated version constitutes acceptance.</p>
+
+    <h2>Contact, EU and UK Representative</h2>
+    <p>For privacy questions, complaints, or rights requests: <a href="mailto:dev@slyapp.co">dev@slyapp.co</a>. Our registered postal address is Cloud Motion Lab LLC, 30 N Gould St Ste R, Sheridan, Wyoming 82801, United States. We currently process EU and UK personal data at a scale below the threshold that requires a designated GDPR Article 27 or UK GDPR representative; the same contact email is the route to a response. We will appoint and publish a representative if and when our processing reaches that threshold.</p>
+
+    <p class="footer-note">This policy reflects our practices as of 2026-09-15. It is not legal advice; if you are an attorney representing a user, please email <a href="mailto:dev@slyapp.co">dev@slyapp.co</a> for clarification. See also the <a href="terms.html">Terms of Use</a> and the <a href="./">Water Eject &amp; Dust Remover page</a>.</p>
+</body>
+</html>
